@@ -1,7 +1,6 @@
 package com.logicalprograms;
 
-import java.util.*;
-import java.lang.*;
+import java.util.Scanner;
 
 public class VendingMachine {
 
@@ -35,6 +34,7 @@ public class VendingMachine {
 
 		System.out.println("Enter amount to withdraw:");
 		int amount = input.nextInt();
+		input.close();
 		countCurrency(amount);
 	}
 
